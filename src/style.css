@@ -1,1 +1,57 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: green;
+}
+
+.card {
+  width: 150px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  border-radius: 10px;
+  color: white;
+  border: 2px black;
+  position: relative;
+  margin-bottom: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.symbol1 {
+  align-self: flex-start;
+  font-size: 40px;
+}
+.symbol2 {
+  align-self: flex-end;
+  transform: scaleY(-1);
+  font-size: 40px;
+}
+
+.value {
+  font-size: 50px;
+}
+.heart {
+  color: red;
+}
+
+.diamond {
+  color: red;
+}
+
+.spade {
+  color: black;
+}
+
+.club {
+  color: black;
+}
